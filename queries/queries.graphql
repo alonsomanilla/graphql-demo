@@ -1,0 +1,53 @@
+# Write your query or mutation here
+query learningGraphQL {
+  #fields
+  countries {
+    code
+    name
+  }
+  #arguments
+  country(code: "MX") {
+    capital
+    name
+    emoji
+    states {
+      name
+      country {
+        name
+      }
+    }
+  }
+  #filter
+  countries( filter: {
+    	code: {
+        eq: "MX" 
+      }
+  }
+  ){
+    code
+    name
+  }
+  #alias
+  GB: country(code: "GB") {
+    capital
+    name
+    states {
+      name
+      country {
+        name
+      }
+    }
+  }
+  continents {
+    name
+    countries {
+      name
+      code
+    }
+  }
+}
+
+
+and, or, 
+join
+como funcionan operadores

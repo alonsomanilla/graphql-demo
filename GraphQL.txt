@@ -1,0 +1,45 @@
+GraphQL
+
+- Qués es? : 
+  Es un estándar de API. 
+  Frontend y backend
+  No importa el motor de almacenamiento
+  Lenguaje tipado
+
+- Cómo funciona:
+  Describes datos
+    type Proyecto{
+      nombre: String
+      leyenda: String
+      usuarios: [User]
+    }
+
+  Consultas lo que necesitas:
+    query ConsultaProyecto{
+      Proyecto(nombre: "GraphQL") {
+        leyenda
+      }
+    }
+
+  Resultados:
+    data: {
+      "proyecto": {
+        "leyenda": "En lenguaje de consulta para API"
+      }
+    }
+
+- Para qué sirve:
+  Consulta de APIs de forma simplificada
+  Minimiza cantidad de datos
+  Backend: Puede modelar datos
+  Frontend: Escribir consultas para recuperar datos específicos
+
+- Ventajas: 
+  Comunicación con múltiples servicios: MySQL ,PostgreSQL, MongoDB y Redis al mismo tiempo
+
+- GraphQL vs Rest
+  Optimización de datos
+  Desarrolladores y tiempo de espera
+  Rest no es flexible con sus endpoints
+  Rest: múltiples solicitudes 
+  GraphQL tiene un solo endpoints

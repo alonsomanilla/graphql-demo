@@ -1,0 +1,7 @@
+type Query {
+   greeting:String
+}
+
+type Mutation {
+   createStudent(collegeId:ID,firstName:String,lastName:String):String
+}

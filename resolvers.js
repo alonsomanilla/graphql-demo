@@ -23,6 +23,16 @@ const Mutation = {
          rating: args.rating
       })
       return db.colleges.get(id);
+   },
+
+   addCollegeById: (root, args, context, info) => {
+      const newCollege = db.colleges.create({
+         id: args.id,
+         name: args.name,
+         location: args.location,
+         rating: args.rating
+      })
+      return db.colleges.get(newCollege);
    }
 }
 

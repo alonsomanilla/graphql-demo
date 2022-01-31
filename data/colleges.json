@@ -1,15 +1,56 @@
 [
   {
-     "id": "col-101",
-     "name": "AMU",
-     "location": "Uttar Pradesh",
-     "rating":5.0
+    "id": "col-101",
+    "name": "AMU",
+    "location": "Uttar Pradesh",
+    "rating": 5
   },
-  
   {
-     "id": "col-102",
-     "name": "CUSAT",
-     "location": "Kerala",
-     "rating":4.5
+    "id": "col-102",
+    "name": "CUSAT",
+    "location": "Kerala",
+    "rating": 4.5
+  },
+  {
+    "id": "BkjQgiHCK",
+    "name": "La vida",
+    "location": "La calle",
+    "rating": 5
+  },
+  {
+    "id": "Syy_QsHAY",
+    "name": "La vida",
+    "location": "La calle",
+    "rating": 5
+  },
+  {
+    "id": "col-103",
+    "name": "High School",
+    "location": "state",
+    "rating": 4.5
+  },
+  {
+    "id": "col-104",
+    "name": "High School",
+    "location": "state",
+    "rating": 4.5
+  },
+  {
+    "id": "col-105",
+    "name": "High School",
+    "location": "state",
+    "rating": 4.5
+  },
+  {
+    "id": "col-106",
+    "name": "High School",
+    "location": "state",
+    "rating": 4.5
+  },
+  {
+    "id": "col-107",
+    "name": "High School",
+    "location": "state",
+    "rating": 4.5
   }
 ]

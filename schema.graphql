@@ -20,4 +20,6 @@ type College {
 type Mutation {
   addStudent(collegeId:ID, firstName:String, lastName:String):Student
   createStudent(collegeId:ID,firstName:String,lastName:String):String
+  addCollege(name:String, location:String, rating:Float):College
+  addCollegeById(id:ID, name:String, location:String, rating:Float):College
 }
